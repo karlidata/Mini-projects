@@ -29,7 +29,7 @@ CREATE TABLE[Reviewer] (
 
 
 CREATE TABLE[Review] (
-[id] int PRIMARY KEY,
+[id] int PRIMARY KEY;
 [comments] nvarchar(max),
 [rating] int,
 [link] nvarchar (max),

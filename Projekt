@@ -32,7 +32,7 @@ CREATE TABLE Zapisy (
 
 /*Tworzenie tabeli "Oceny"*/
 CREATE TABLE Oceny (
-    ocena_id INT PRIMARY KEY,
+    ocena_id INT PRIMARY KEY
     student_id INT,
     kurs_id INT,
     ocena DECIMAL(3,1),
